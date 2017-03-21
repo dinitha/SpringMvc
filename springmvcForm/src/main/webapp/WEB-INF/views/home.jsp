@@ -13,6 +13,9 @@
     <title>Contact Manager Home</title>
 </head>
 <body>
+<div>
+    <a href="marks">marks</a>
+</div>
 <div align="center">
     <h1>Contact List</h1>
     <h3><a href="/newContact">New Contact</a></h3>

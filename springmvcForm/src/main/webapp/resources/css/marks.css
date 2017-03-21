@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.content{
+    float: left;
+    padding: 15px;
+}
+.navigation-bar{
+    width: 20%;
+
+}
+.details{
+    width: 80%;
+    text-align: left;
+}
+.header ,.footer{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
