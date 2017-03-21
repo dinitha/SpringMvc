@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 import com.myspring.dao.ContactDao;
 import com.myspring.model.Contact;
@@ -30,6 +29,10 @@ public class HomeController {
 		return model;
 	}
 //sisisisisi
+@RequestMapping(value="marks")
+public void marksPage(ModelAndView model){
+		 model.setViewName("marks");
+}
 
 	@RequestMapping(value = "/newContact", method = RequestMethod.GET)
 	public ModelAndView newContact(ModelAndView model) {
